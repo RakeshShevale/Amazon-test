@@ -60,12 +60,10 @@ public class TestCases {
 /*
  *3) Click on cart and verify Your Amazon Cart is empty is displayed with Sign in
 * to your account and Sign up now button
-*/		
-		
+*/			
 		//verify signupButton Display or not
 		boolean b1 = addtoCart.verifySignupButtonDisplay();
 		System.out.println("verifySignupButtonDisplay:-"+b1);
-
 		//verify signinButton Display or not
 		boolean b2 =addtoCart.verifySigninButtonDisplay();
 		System.out.println("verifySigninButtonDisplay:-"+b2);
