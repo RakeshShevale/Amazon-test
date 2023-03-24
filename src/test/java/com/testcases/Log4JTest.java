@@ -9,10 +9,8 @@ public class Log4JTest {
 
 	public static void main(String[] args) {
 		System.out.println("Hello world ");
-
 		logger.info("This is info msg");
-		logger.error("This is error msg");
-		
+		logger.error("This is error msg");	
 		logger.warn("This is warn msg");
 		logger.fatal("This is fatal msg");
 		
