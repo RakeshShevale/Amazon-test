@@ -26,7 +26,6 @@ import assignment_utility.ReaderClass;
 
 
 public class TestCases {
-
 	static WebDriver driver=null;
 	ReaderClass read=new ReaderClass ();
 	Browser_Factory br=new Browser_Factory ();
@@ -41,11 +40,9 @@ public class TestCases {
 	}
 
 	@Test
-	public void test() throws Exception {
-
+	public void test() throws Exception {	
 		//Apply Implicites Wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
 		//Verify Cart displays 0 items.
 		HomePage obj=new HomePage(driver);
 		Thread.sleep(6000);
@@ -56,7 +53,6 @@ public class TestCases {
 
 		//click on cart
 		obj.clickonCart();
-
 
 		//go to cart page and check button
 		AddToCardPage addtoCart=new AddToCardPage (driver);
