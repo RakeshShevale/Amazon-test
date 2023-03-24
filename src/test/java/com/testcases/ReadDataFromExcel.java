@@ -18,8 +18,6 @@ public class ReadDataFromExcel {
 		
 		int noOfRows = sheet.getPhysicalNumberOfRows();
 		int noOfColumns = sheet.getRow(0).getLastCellNum();
-		
-		
 		System.out.println("ROws : "+noOfRows);
 		System.out.println("Column : "+noOfColumns);
 		//String [][] data = new String[noOfRows-1][noOfColumns];
